@@ -45,7 +45,7 @@ app.get('/', (req, res) => {
   res.send("Optimus Prime AI API is standing by.");
 });
 
-app.route('/gpt')
+app.route('/prime')
   .get(async (req, res) => {
     const query = req.query.query;
     if (!query) {
